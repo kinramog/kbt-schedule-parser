@@ -168,7 +168,7 @@ def main():
     # th_pars = Thread(target=scheduled_pars, args=())
     # th_pars.start()
     try:
-        th_bot = Thread(target=telegram_bot("5443998732:AAGbeikuKzPTznUHZQ3qOQO6HGt69_AblUo"), args=())
+        th_bot = Thread(target=telegram_bot("ENTER YOUR TOKEN HERE"), args=())
         th_bot.start()
     except Exception as ex:
         print(f"Бот свалился по неведомой причине.\nТекст ошибки: {ex}")
